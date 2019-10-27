@@ -1,10 +1,6 @@
 
 Solving CSPs
 
-In this project, you are expected to solve the following puzzles using a CSP solver.
-Although Google OR Tools is highly recommended, you are free to use any CSP
-solver.
-
 OR-Tools provides two solvers for constraint programming:
 
 -The CP-SAT solver
@@ -12,13 +8,18 @@ OR-Tools provides two solvers for constraint programming:
 
 We used CP-SAT solver. The CP-SAT solver is technologically superior to the original CP solver and should be preferred in almost all situations. The exceptions are small problems for which solutions can be found quickly using either solver. In those cases you may find that the original CP solver outperforms CP-SAT.
 
+If your computer does not include OR-Tools library for python3, firstly you have to install this library. you can install from terminal below this code;
+
+sudo python3 -m pip install -U ortools
+
+
 ● Kakuros
 ● Futoshiki
 
 Kakuros
 
-Figure below illustrates a simple Kakuros puzzle, solution of the puzzle, input file and
-the output file.
+Kakuros is a Japan old board game. Based on filling the boxes in the diagram with numbers from 1 to 9.
+numbers in the same column and numbers in the same column must be different. Inputs represent the sum of numbers.you can see the numbers that need to be placed in the output.
 
 input
 22, 18, 7
@@ -32,8 +33,7 @@ x, 22, 18, 7
 
 Futoshiki
 
-Figure below illustrates a simple Futoshiki puzzle, solution of the puzzle, input file and
-the output file.
+Futoshiki is a another Japan board gmae. Some digits may be given at the start and the numbers are placed according to the less than sign. In the same sudoku, rows and columns cannot have more than one same number. Solves the puzzle by typing in the program's entries where the number is and where the less than sign is. In the output section you can see the whole solution.
 
 input
 B2, 1
