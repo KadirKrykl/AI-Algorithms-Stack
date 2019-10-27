@@ -6,7 +6,7 @@ OR-Tools provides two solvers for constraint programming:
 -The CP-SAT solver
 -The original CP solver
 
-We used CP-SAT solver. The CP-SAT solver is technologically superior to the original CP solver and should be preferred in almost all situations. The exceptions are small problems for which solutions can be found quickly using either solver. In those cases you may find that the original CP solver outperforms CP-SAT.
+We used CP-SAT solver this project. The CP-SAT solver is technologically superior to the original CP solver and should be preferred in almost all situations. The exceptions are small problems for which solutions can be found quickly using either solver. In those cases you may find that the original CP solver outperforms CP-SAT.
 
 If your computer does not include OR-Tools library for python3, firstly you have to install this library. you can install from terminal below this code;
 
