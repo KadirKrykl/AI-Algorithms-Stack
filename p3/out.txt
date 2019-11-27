@@ -1,0 +1,3 @@
+chromosome: 111000110100011
+weight: 748
+value: 1450
