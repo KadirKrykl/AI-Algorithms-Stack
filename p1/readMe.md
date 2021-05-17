@@ -31,10 +31,9 @@ Then, program will give an example output as follows.
 
 **Output:**
 
-BFS : A - B - E - G
-DFS : A - B - C - D - E - F - G
-UCS : A - D - E - G
-
+ - BFS : A - B - E - G 
+ - DFS : A - B - C - D - E - F - G 
+ - UCS : A - D - E - G
 
 **Resouce;**
 For BFS and DFS: https://pythoninwonderland.wordpress.com/2017/03/18/how-to-implement-breadth-first-search-in-python/
